@@ -1,8 +1,8 @@
-# hexo-theme-gandalfr
+# hexo-theme-sailor
 
-[![npm version](https://badge.fury.io/js/hexo-theme-gandalfr.svg)](https://badge.fury.io/js/hexo-theme-gandalfr)
+[![npm version](https://badge.fury.io/js/hexo-theme-sailor.svg)](https://badge.fury.io/js/hexo-theme-gandalfr)
 
-Yet, just another blog theme for Hexo, based on hexo-theme-apollo.
+Yet another Hexo theme tend to be simple and elegant. Based on hexo-theme-sailor.
 
 ### Features
 + Built-in Code highlight support.
@@ -11,15 +11,15 @@ Yet, just another blog theme for Hexo, based on hexo-theme-apollo.
 
 ### Live Demo
 
-You can see from [here: mikecoder.github.io/oj-code](https://mikecoder.github.io/oj-code/)
+You can see from [here: https://timecollapse.org](https://timecollapse.org)
 
 ### How to Install
 ``` bash
 # cd to your hexo dir
 npm install
 npm install --save hexo-renderer-jade hexo-generator-feed hexo-generator-sitemap hexo-browsersync hexo-generator-archive hexo-tag-cloud
-git clone https://github.com/MikeCoder/hexo-theme-gandalfr.git themes/gandalfr
-cd themes/gandalfr
+git submodule add https://github.com/da7eh/hexo-theme-sailor themes/sailor
+cd themes/sailor
 cp _config.yml.example _config.yml
 # modify the config file by yourself
 ```
@@ -31,17 +31,11 @@ You can see from [Here](https://github.com/MikeCoder/hexo-tag-cloud) to learn ho
 
 ## Enable the Theme
 
-modify `_config.yml` to change `theme` to `gandalfr`:
+modify `_config.yml` to change `theme` to `sailor`:
 
 ```yaml
-theme: gandalfr
-
-# Dependent on the hexo-generator-archive plugin
-archive_generator:
-    per_page: 0
-    yearly: false
-    monthly: false
-    daily: false
+## Themes: https://hexo.io/themes/
+theme: sailor
 ```
 
 ## Change the Code Style
@@ -51,17 +45,18 @@ modify `_config.yml` to change the codestyle block:
 ```
 # Styles shoule be found in the list: https://highlightjs.org/static/demo/
 # use the lowercase letters and replace space with -
-codestyle: solarized-light
+codestyle: atom-one-dark
 ```
 
 ## Update to the newest version
 ``` bash
-cd themes/gandalfr
-git pull
+# cd to your hexo dir
+git submodule update
 ```
 
 ## Thanks
 + [hexo-theme-apollo](https://github.com/pinggod/hexo-theme-apollo)
++ [hexo-theme-gandalfr](https://github.com/MikeCoder/hexo-theme-gandalfr)
 
 ## License
 See [@LICENSE](./LICENSE)

@@ -1,26 +1,28 @@
 {
-  "name": "hexo-theme-gandalfr",
-  "version": "1.0.10",
-  "description": "Yet, just another blog theme for Hexo, based on hexo-theme-apollo",
+  "name": "hexo-theme-sailor",
+  "version": "1.0.0",
+  "description": "Yet another Hexo theme tend to be simple and elegant.",
   "main": "index.js",
   "scripts": {
     "sass": "gulp sass"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/MikeCoder/hexo-theme-gandalfr"
+    "url": "https://github.com/da7eh/hexo-theme-sailor"
   },
   "keywords": [
     "hexo",
     "theme",
-    "apollo"
+    "apollo",
+    "gandalfr",
+    "sailor"
   ],
-  "author": "Sean Sun, Mike Tang",
+  "author": "Da7eh",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/MikeCoder/hexo-theme-gandalfr/issues"
+    "url": "https://github.com/da7eh/hexo-theme-sailor/issues"
   },
-  "homepage": "https://github.com/MikeCoder/hexo-theme-gandalfr#readme",
+  "homepage": "https://github.com/da7eh/hexo-theme-sailor/#readme",
   "devDependencies": {
     "gulp": "^4.0.0",
     "gulp-autoprefixer": "^3.0.2",
