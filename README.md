@@ -2,7 +2,7 @@
 
 [![npm version](https://badge.fury.io/js/hexo-theme-sailor.svg)](https://badge.fury.io/js/hexo-theme-gandalfr)
 
-Yet another Hexo theme tend to be simple and elegant. Based on hexo-theme-sailor.
+Yet another Hexo theme tend to be simple and elegant. Based on hexo-theme-gandalfr.
 
 ### Features
 + Built-in Code highlight support.
@@ -17,7 +17,7 @@ You can see from [here: https://timecollapse.org](https://timecollapse.org)
 ``` bash
 # cd to your hexo dir
 npm install
-npm install --save hexo-renderer-jade hexo-generator-feed hexo-generator-sitemap hexo-browsersync hexo-generator-archive hexo-tag-cloud
+npm install --save hexo-renderer-pug hexo-generator-feed hexo-generator-sitemap hexo-browsersync hexo-generator-archive hexo-tag-cloud
 git submodule add https://github.com/da7eh/hexo-theme-sailor themes/sailor
 cd themes/sailor
 cp _config.yml.example _config.yml
