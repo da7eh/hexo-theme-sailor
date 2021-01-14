@@ -14,15 +14,14 @@
     "hexo",
     "theme",
     "apollo",
-    "gandalfr",
-    "sailor"
+    "primitive"
   ],
-  "author": "da7eh",
+  "author": "Dave",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/da7eh/hexo-theme-sailor/issues"
+    "url": "https://github.com/dave7teen/hexo-theme-primitive/issues"
   },
-  "homepage": "https://github.com/da7eh/hexo-theme-sailor/#readme",
+  "homepage": "https://github.com/dave7teen/hexo-theme-sailor/#readme",
   "devDependencies": {
     "gulp": "^4.0.0",
     "gulp-autoprefixer": "^3.0.2",

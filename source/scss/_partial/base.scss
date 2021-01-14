@@ -1,6 +1,31 @@
+$grey: #eeeeee;
+$metalgrey: #bbcad2;
+$darkgrey: #2e2e2e;
+$washedblack: #34495e;
+$gold: #d78700;
+$darkgreen: #005f87;
+$lightgreen: #42b983;
+$creamgreen: #00afaf;
+$palegreen: #87afaf;
+$teal: #0087af;
+$blue: #2472b6;
+$paleblue: #5f87af;
+$deeppurple: #875f87;
+$palepurple: #8787af;
+$lightpurple: #afafff;
+$paleviolet: #af87af;
+$hotpink: #ff5f87;
+$darkpink: #af5f87;
+
+$primary-color: $lightgreen;
+$secondary-color: $paleviolet;
+$supplement-color: $grey;
+$text-color: $washedblack;
+$outstanding-color:$hotpink;
+
 ::selection {
     color: #FFFFFF;
-    background-color: #42b983;
+    background-color: $primary-color;
 }
 
 html, body {
@@ -10,10 +35,10 @@ html, body {
 
 body {
     margin: 0;
-    color: #34495e;
-    font-size: 15px;
+    color: $text-color;
+    font-size: 17px;
     line-height: 1.4;
-    background-color: #fff;
+    background-color: #FFFFFF;
     font-family: "PingFang SC", "Helvetica Neue", "Hiragino Sans GB", "Microsoft YaHei", "微软雅黑", Helvetica, Arial, Verdana, sans-serif;
 }
 
@@ -26,7 +51,7 @@ ul.post-list {
 
 .tag-title {
     font-size: 1em;
-    color: #42b983;
+    color: $primary-color;
     padding-left: 10px;
 }
 
@@ -42,7 +67,7 @@ a, a:active {
 a.nav-list-link.active,
 a.nav-list-link:hover,
 a.post-title-link:hover {
-    border-bottom: 2px solid #42b983;
+    border-bottom: 2px solid $primary-color;
 }
 
 hr {
