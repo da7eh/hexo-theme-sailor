@@ -1,5 +1,5 @@
 {
-  "name": "hexo-theme-sailor",
+  "name": "hexo-theme-primitive",
   "version": "1.0.0",
   "description": "Yet another Hexo theme tend to be simple and elegant.",
   "main": "index.js",
@@ -8,20 +8,21 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/da7eh/hexo-theme-sailor"
+    "url": "https://github.com/daveh40/hexo-theme-primitive"
   },
   "keywords": [
     "hexo",
     "theme",
     "apollo",
+    "gandalfr",
     "primitive"
   ],
   "author": "Dave",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/dave7teen/hexo-theme-primitive/issues"
+    "url": "https://github.com/daveh40/hexo-theme-primitive/issues"
   },
-  "homepage": "https://github.com/dave7teen/hexo-theme-sailor/#readme",
+  "homepage": "https://github.com/daveh40/hexo-theme-primitive/#readme",
   "devDependencies": {
     "gulp": "^4.0.0",
     "gulp-autoprefixer": "^3.0.2",
