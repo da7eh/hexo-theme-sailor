@@ -1,11 +1,10 @@
-var gulp = require("gulp");
-var sass = require("gulp-sass");
-var autoprefixer = require("gulp-autoprefixer");
+import { task, src, dest } from "gulp";
+import sass from "gulp-sass";
+import autoprefixer from "gulp-autoprefixer";
 
-gulp.task("sass", function() {
-  return gulp
-    .src("./source/scss/*.scss")
+task("sass", function () {
+  return src("./source/scss/*.scss")
     .pipe(sass({ outputStyle: "compressed" }))
     .pipe(autoprefixer())
-    .pipe(gulp.dest("./source/css"));
+    .pipe(dest("./source/css"));
 });
