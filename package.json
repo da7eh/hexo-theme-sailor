@@ -4,7 +4,8 @@
   "description": "Yet another Hexo theme tend to be simple and elegant.",
   "main": "index.js",
   "scripts": {
-    "sass": "gulp sass"
+    "sass-gen": "sass source/scss/primitive.scss source/css/primitive.css",
+    "sass-watch": "sass --watch source/scss/primitive.scss source/css/primitive.css"
   },
   "repository": {
     "type": "git",
@@ -17,18 +18,13 @@
     "gandalfr",
     "primitive"
   ],
-  "author": "Dave",
+  "author": "Dave Hao",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/daveh40/hexo-theme-primitive/issues"
   },
   "homepage": "https://github.com/daveh40/hexo-theme-primitive/#readme",
   "devDependencies": {
-    "gulp": "^4.0.0",
-    "gulp-autoprefixer": "^3.0.2",
-    "gulp-sass": "^2.0.4"
-  },
-  "dependencies": {
-    "node-sass": "^4.11.0"
+    "node-sass": "^5.0.0"
   }
 }

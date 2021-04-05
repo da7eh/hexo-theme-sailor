@@ -1,8 +1,15 @@
 extends partial/layout
 
 block container
-    include mixins/post
-    +postList()
+    if page.type === "wiki" || page.type === "about"
+        include mixins/wiki
+        +wiki(page)
+
+//-
+    else
+        include mixins/post
+        +postList()
+        h3 hijklmn
 
 block pagination
     include mixins/paginator

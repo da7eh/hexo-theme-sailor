@@ -2,7 +2,8 @@ extends partial/layout
 
 block container
     include mixins/post
-    +posts()
+    h3(class='archive-year')= page.tag
+    +postList()
 
 block pagination
     include mixins/paginator
