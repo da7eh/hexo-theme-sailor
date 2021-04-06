@@ -26,5 +26,9 @@
   "homepage": "https://github.com/daveh40/hexo-theme-primitive/#readme",
   "devDependencies": {
     "node-sass": "^5.0.0"
+  },
+  "dependencies": {
+    "global": "^4.4.0",
+    "sass": "^1.32.8"
   }
 }
