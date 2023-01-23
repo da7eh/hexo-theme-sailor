@@ -1,4 +1,4 @@
 # TODO List
 
 ### Features
-- [ ] Add customizatioin of theme color.
+- [ ] Add support for custom theme color

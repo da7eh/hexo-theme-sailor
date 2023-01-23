@@ -10,7 +10,7 @@ Yet another Hexo theme tend to be simple and elegant. Based on [hexo-theme-ganda
 
 ### Live Demo
 
-You can see the demo [here](https://davehao.com).
+See the [Demo](https://davedream.me).
 
 ### How to Install
 
@@ -18,9 +18,9 @@ You can see the demo [here](https://davehao.com).
 # cd to your hexo dir
 npm install
 npm install --save hexo-renderer-pug hexo-generator-feed hexo-generator-sitemap hexo-browsersync hexo-generator-archive hexo-tag-cloud
-git submodule add https://github.com/daveh40/hexo-theme-primitive themes/primitive
-cd themes/primitive
-cp _config.yml.example _config.yml
+git submodule add https://github.com/haodave/hexo-theme-primitive themes/primitive
+mkdir -p src/_data
+cp themes/primitive/_config.yml.example src/_data/primitive.yml
 # modify the config file
 ```
 
@@ -29,7 +29,6 @@ cp _config.yml.example _config.yml
 Modify `_config.yml` to change the theme:
 
 ```yaml
-## Themes: https://hexo.io/themes/
 theme: primitive
 ```
 
@@ -52,7 +51,6 @@ git submodule update
 
 ## Thanks
 
-- [hexo-theme-apollo](https://github.com/pinggod/hexo-theme-apollo)
 - [hexo-theme-gandalfr](https://github.com/MikeCoder/hexo-theme-gandalfr)
 
 ## License
